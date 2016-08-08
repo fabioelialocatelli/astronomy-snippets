@@ -26,22 +26,30 @@ public class SimbadConnector {
 		String precedingData = null;
 
 		Document page = null;
-		Connection databaseConnection = null;
+		Connection bayerConnection = null;
+		Connection flamsteedConnection = null;
 		PreparedStatement databaseManipulation = null;
+
+		try {
+			bayerConnection = DriverManager.getConnection("jdbc:mysql://localhost:3306/bayer?characterEncoding=utf8",
+					"root", "HadarToliman@#$");
+			flamsteedConnection = DriverManager.getConnection(
+					"jdbc:mysql://localhost:3306/flamsteed?characterEncoding=utf8", "root", "HadarToliman@#$");
+		} catch (SQLException connectionError) {
+			connectionError.getMessage();
+		}
 
 		String[] bayerLetters = { "alf", "bet", "gam", "del", "eps", "zet", "eta", "tet", "iot", "kap", "lam", "mu",
 				"nu", "ksi", "omi", "pi", "rho", "sig", "tau", "ups", "phi", "chi", "psi", "ome" };
 
 		String[] bayerNumbers = { "0", "1", "2", "3", "4", "5" };
 
-		String[] bayerConstellations = {
-
-				/*"and", "ant", "aps", "aqr", "aql", "ara", "ari", "aur", "boo", "cae", "cnc", "cma", "cap", "car", "cas",
-				"cen", "cep", "cet", "cha", "cir", "col", "cra", "crb", "crv", "crt", "cru", "cyg", "dor", "dra", "eri",
-				"for", "gem", "gru", "her", "hor", "hya", "hyi", "ind", "leo", "lep", "lib", "lup", "lyr", "men", "mic",
-				"mus", "nor",*/ "oct", "oph", "ori", "pav", "peg", "per", "phe", "pic", "psc", "psa", "pup", "pyx", "ret",
-				"sgr", "sco", "scl", "sct", "ser", "sex", "tau", "tel", "tra", "tuc", "uma", "umi", "vel", "vir",
-				"vol" };
+		String[] bayerConstellations = { "and", "ant", "aps", "aqr", "aql", "ara", "ari", "aur", "boo", "cae", "cnc",
+				"cma", "cap", "car", "cas", "cen", "cep", "cet", "cha", "cir", "col", "cra", "crb", "crv", "crt", "cru",
+				"cyg", "dor", "dra", "eri", "for", "gem", "gru", "her", "hor", "hya", "hyi", "ind", "leo", "lep", "lib",
+				"lup", "lyr", "men", "mic", "mus", "nor", "oct", "oph", "ori", "pav", "peg", "per", "phe", "pic", "psc",
+				"psa", "pup", "pyx", "ret", "sgr", "sco", "scl", "sct", "ser", "tel", "tra", "tuc", "uma", "umi", "vel",
+				"vir", "vol" };
 
 		String[] flamsteedNumbers = { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15",
 				"16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32",
@@ -56,7 +64,6 @@ public class SimbadConnector {
 
 		String[] flamsteedConstellations = { "cam", "cvn", "cmi", "com", "del", "equ", "lac", "lmi", "lyn", "mon",
 				"sge", "sex", "tau", "tri", "vul" };
-		
 
 		option = "bayer";
 
@@ -82,7 +89,6 @@ public class SimbadConnector {
 
 						String simbadURL = "http://simbad.u-strasbg.fr/simbad/sim-id?Ident=" + star
 								+ "&NbIdent=1&Radius=2&Radius.unit=arcmin&submit=submit+id";
-						String stellarSchema = "bayer";
 						String stellarTable = "bayerstar";
 
 						String databaseIdentifier = null;
@@ -773,10 +779,7 @@ public class SimbadConnector {
 								System.out.println("HIP IDENTIFIER: " + identifierHIP);
 								System.out.println("SAO IDENTIFIER: " + identifierSAO);
 
-								databaseConnection = DriverManager.getConnection(
-										"jdbc:mysql://localhost:3306/" + stellarSchema + "?characterEncoding=utf8",
-										"root", "HadarToliman@#$");
-								databaseManipulation = databaseConnection.prepareStatement("UPDATE " + stellarTable
+								databaseManipulation = bayerConnection.prepareStatement("UPDATE " + stellarTable
 										+ " SET `identifierHD`= ?, `identifierHIP`= ?, `identifierSAO`= ? WHERE `designation`='"
 										+ databaseStar + "';");
 								databaseManipulation.setString(1, identifierHD);
@@ -808,7 +811,6 @@ public class SimbadConnector {
 
 					String simbadURL = "http://simbad.u-strasbg.fr/simbad/sim-id?Ident=" + star
 							+ "&NbIdent=1&Radius=2&Radius.unit=arcmin&submit=submit+id";
-					String stellarSchema = "flamsteed";
 					String stellarTable = "flamsteedstar";
 
 					String databaseIdentifier = flamsteedNumber;
@@ -890,10 +892,7 @@ public class SimbadConnector {
 							System.out.println("HIP IDENTIFIER: " + identifierHIP);
 							System.out.println("SAO IDENTIFIER: " + identifierSAO);
 
-							databaseConnection = DriverManager.getConnection(
-									"jdbc:mysql://localhost:3306/" + stellarSchema + "?characterEncoding=utf8", "root",
-									"HadarToliman@#$");
-							databaseManipulation = databaseConnection.prepareStatement("UPDATE " + stellarTable
+							databaseManipulation = flamsteedConnection.prepareStatement("UPDATE " + stellarTable
 									+ " SET `identifierHD`= ?, `identifierHIP`= ?, `identifierSAO`= ? WHERE `designation`='"
 									+ databaseStar + "';");
 							databaseManipulation.setString(1, identifierHD);
