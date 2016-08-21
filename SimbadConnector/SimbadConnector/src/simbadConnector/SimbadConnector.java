@@ -898,7 +898,7 @@ public class SimbadConnector {
 							databaseManipulation.execute();
 
 							source.close();
-							Thread.sleep(5000);
+							Thread.sleep(10000);
 						}
 					} catch (IndexOutOfBoundsException | IOException | InterruptedException
 							| SQLException parsingException) {
