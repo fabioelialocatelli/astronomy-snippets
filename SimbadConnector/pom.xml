@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>SimbadConnector</groupId>
   <artifactId>SimbadConnector</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <resources>
@@ -36,4 +36,5 @@
   		<version>1.10.2</version>
   	</dependency>
   </dependencies>
+  <name>Simbad Connector</name>
 </project>
