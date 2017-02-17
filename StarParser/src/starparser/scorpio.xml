@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href = "stylesheet.css"?>
+<!DOCTYPE data [
+
+<!ELEMENT data (row+)>
+<!ELEMENT row (designation, radialVelocity, parallax, parsecs, lightYears, 
+apparentMagnitude, absoluteMagnitude, bolometricMagnitude, solarDiameter, 
+absoluteLuminosity, bolometricLuminosity, spectralClass, stellarCategory,
+innerBoundary, outerBoundary, gregorianYear)>
+<!ELEMENT designation (#PCDATA)>
+<!ELEMENT radialVelocity (#PCDATA)>
+<!ELEMENT parallax (#PCDATA)>
+<!ELEMENT parsecs (#PCDATA)>
+<!ELEMENT lightYears (#PCDATA)>
+<!ELEMENT apparentMagnitude (#PCDATA)>
+<!ELEMENT absoluteMagnitude (#PCDATA)>
+<!ELEMENT bolometricMagnitude (#PCDATA)>
+<!ELEMENT solarDiameter (#PCDATA)>
+<!ELEMENT absoluteLuminosity (#PCDATA)>
+<!ELEMENT bolometricLuminosity (#PCDATA)>
+<!ELEMENT spectralClass (#PCDATA)>
+<!ELEMENT stellarCategory (#PCDATA)>
+<!ELEMENT innerBoundary (#PCDATA)>
+<!ELEMENT outerBoundary (#PCDATA)>
+<!ELEMENT gregorianYear (#PCDATA)>
+]>
+<data>
+
+	<row>
+		<designation>α Scorpii</designation>
+		<radialVelocity>-3.5</radialVelocity>
+		<parallax>0,00589&quot;</parallax>
+		<parsecs>169.78</parsecs>
+		<lightYears>553.75</lightYears>
+		<apparentMagnitude>1.05</apparentMagnitude>
+		<absoluteMagnitude>-5.1</absoluteMagnitude>
+		<bolometricMagnitude>-7.07</bolometricMagnitude>
+		<solarDiameter>649.9909</solarDiameter>
+		<absoluteLuminosity>9375.62</absoluteLuminosity>
+		<bolometricLuminosity>53456.4359</bolometricLuminosity>
+		<spectralClass>M1</spectralClass>
+		<stellarCategory>Ib</stellarCategory>
+		<innerBoundary>220.4467</innerBoundary>
+		<outerBoundary>317.5865</outerBoundary>
+		<gregorianYear>98256.3049</gregorianYear>
+	</row>
+
+	<row>
+		<designation>β1 Scorpii</designation>
+		<radialVelocity>-1</radialVelocity>
+		<parallax>0,00615&quot;</parallax>
+		<parsecs>162.6</parsecs>
+		<lightYears>530.34</lightYears>
+		<apparentMagnitude>2.6</apparentMagnitude>
+		<absoluteMagnitude>-3.46</absoluteMagnitude>
+		<bolometricMagnitude>-6.41</bolometricMagnitude>
+		<solarDiameter>7.537</solarDiameter>
+		<absoluteLuminosity>2070.1413</absoluteLuminosity>
+		<bolometricLuminosity>29107.1711</bolometricLuminosity>
+		<spectralClass>B0</spectralClass>
+		<stellarCategory>V</stellarCategory>
+		<innerBoundary>162.6685</innerBoundary>
+		<outerBoundary>234.3484</outerBoundary>
+		<gregorianYear>72503.7429</gregorianYear>
+	</row>
+
+	<row>
+		<designation>β2 Scorpii</designation>
+		<radialVelocity>-5.6</radialVelocity>
+		<parallax>0,00288&quot;</parallax>
+		<parsecs>347.22</parsecs>
+		<lightYears>1132.49</lightYears>
+		<apparentMagnitude>4.8</apparentMagnitude>
+		<absoluteMagnitude>-2.9</absoluteMagnitude>
+		<bolometricMagnitude>-5.48</bolometricMagnitude>
+		<solarDiameter>6.4779</solarDiameter>
+		<absoluteLuminosity>1235.9474</absoluteLuminosity>
+		<bolometricLuminosity>12359.4743</bolometricLuminosity>
+		<spectralClass>B2</spectralClass>
+		<stellarCategory>V</stellarCategory>
+		<innerBoundary>105.9994</innerBoundary>
+		<outerBoundary>152.708</outerBoundary>
+		<gregorianYear>47245.4975</gregorianYear>
+	</row>
+
+	<row>
+		<designation>δ Scorpii</designation>
+		<radialVelocity>-6</radialVelocity>
+		<parallax>0,00812&quot;</parallax>
+		<parsecs>123.15</parsecs>
+		<lightYears>401.67</lightYears>
+		<apparentMagnitude>2.35</apparentMagnitude>
+		<absoluteMagnitude>-3.1</absoluteMagnitude>
+		<bolometricMagnitude>-6.05</bolometricMagnitude>
+		<solarDiameter>6.3855</solarDiameter>
+		<absoluteLuminosity>1485.9356</absoluteLuminosity>
+		<bolometricLuminosity>20892.9613</bolometricLuminosity>
+		<spectralClass>B0</spectralClass>
+		<stellarCategory>IV</stellarCategory>
+		<innerBoundary>137.8172</innerBoundary>
+		<outerBoundary>198.5464</outerBoundary>
+		<gregorianYear>61427.1587</gregorianYear>
+	</row>
+
+	<row>
+		<designation>ε Scorpii</designation>
+		<radialVelocity>-2.5</radialVelocity>
+		<parallax>0,05119&quot;</parallax>
+		<parsecs>19.53</parsecs>
+		<lightYears>63.71</lightYears>
+		<apparentMagnitude>2.25</apparentMagnitude>
+		<absoluteMagnitude>0.8</absoluteMagnitude>
+		<bolometricMagnitude>-0.37</bolometricMagnitude>
+		<solarDiameter>22.2354</solarDiameter>
+		<absoluteLuminosity>40.926</absoluteLuminosity>
+		<bolometricLuminosity>111.6863</bolometricLuminosity>
+		<spectralClass>K1</spectralClass>
+		<stellarCategory>III</stellarCategory>
+		<innerBoundary>10.0763</innerBoundary>
+		<outerBoundary>14.5165</outerBoundary>
+		<gregorianYear>4491.1791</gregorianYear>
+	</row>
+
+	<row>
+		<designation>ζ1 Scorpii</designation>
+		<radialVelocity>-26</radialVelocity>
+		<parallax>0,00127&quot;</parallax>
+		<parsecs>787.4</parsecs>
+		<lightYears>2568.16</lightYears>
+		<apparentMagnitude>4.7</apparentMagnitude>
+		<absoluteMagnitude>-4.78</absoluteMagnitude>
+		<bolometricMagnitude>-7.43</bolometricMagnitude>
+		<solarDiameter>15.1232</solarDiameter>
+		<absoluteLuminosity>6982.324</absoluteLuminosity>
+		<bolometricLuminosity>74473.1973</bolometricLuminosity>
+		<spectralClass>B0</spectralClass>
+		<stellarCategory>Ia</stellarCategory>
+		<innerBoundary>260.1978</innerBoundary>
+		<outerBoundary>374.8539</outerBoundary>
+		<gregorianYear>115973.9442</gregorianYear>
+	</row>
+
+	<row>
+		<designation>ζ2 Scorpii</designation>
+		<radialVelocity>-18.7</radialVelocity>
+		<parallax>0,02465&quot;</parallax>
+		<parsecs>40.56</parsecs>
+		<lightYears>132.31</lightYears>
+		<apparentMagnitude>3.6</apparentMagnitude>
+		<absoluteMagnitude>0.56</absoluteMagnitude>
+		<bolometricMagnitude>-0.94</bolometricMagnitude>
+		<solarDiameter>32.9529</solarDiameter>
+		<absoluteLuminosity>51.0504</absoluteLuminosity>
+		<bolometricLuminosity>188.7991</bolometricLuminosity>
+		<spectralClass>K4</spectralClass>
+		<stellarCategory>III</stellarCategory>
+		<innerBoundary>13.1009</innerBoundary>
+		<outerBoundary>18.8739</outerBoundary>
+		<gregorianYear>5839.2946</gregorianYear>
+	</row>
+
+	<row>
+		<designation>η Scorpii</designation>
+		<radialVelocity>-27</radialVelocity>
+		<parallax>0,04439&quot;</parallax>
+		<parsecs>22.52</parsecs>
+		<lightYears>73.48</lightYears>
+		<apparentMagnitude>3.3</apparentMagnitude>
+		<absoluteMagnitude>1.54</absoluteMagnitude>
+		<bolometricMagnitude>1.46</bolometricMagnitude>
+		<solarDiameter>3.5098</solarDiameter>
+		<absoluteLuminosity>20.7014</absoluteLuminosity>
+		<bolometricLuminosity>20.7014</bolometricLuminosity>
+		<spectralClass>F5</spectralClass>
+		<stellarCategory>IV</stellarCategory>
+		<innerBoundary>4.3381</innerBoundary>
+		<outerBoundary>6.2497</outerBoundary>
+		<gregorianYear>1933.5717</gregorianYear>
+	</row>
+
+	<row>
+		<designation>θ Scorpii</designation>
+		<radialVelocity>1.4</radialVelocity>
+		<parallax>0,01199&quot;</parallax>
+		<parsecs>83.4</parsecs>
+		<lightYears>272.02</lightYears>
+		<apparentMagnitude>1.85</apparentMagnitude>
+		<absoluteMagnitude>-2.76</absoluteMagnitude>
+		<bolometricMagnitude>-2.85</bolometricMagnitude>
+		<solarDiameter>21.7573</solarDiameter>
+		<absoluteLuminosity>1086.4256</absoluteLuminosity>
+		<bolometricLuminosity>1096.4781</bolometricLuminosity>
+		<spectralClass>F1</spectralClass>
+		<stellarCategory>II</stellarCategory>
+		<innerBoundary>31.5721</innerBoundary>
+		<outerBoundary>45.4843</outerBoundary>
+		<gregorianYear>14072.1484</gregorianYear>
+	</row>
+
+	<row>
+		<designation>ι1 Scorpii</designation>
+		<radialVelocity>-27.6</radialVelocity>
+		<parallax>0,00169&quot;</parallax>
+		<parsecs>591.71</parsecs>
+		<lightYears>1929.92</lightYears>
+		<apparentMagnitude>2.95</apparentMagnitude>
+		<absoluteMagnitude>-5.91</absoluteMagnitude>
+		<bolometricMagnitude>-6.02</bolometricMagnitude>
+		<solarDiameter>85.9355</solarDiameter>
+		<absoluteLuminosity>19769.6964</absoluteLuminosity>
+		<bolometricLuminosity>20323.5701</bolometricLuminosity>
+		<spectralClass>F2</spectralClass>
+		<stellarCategory>Ia</stellarCategory>
+		<innerBoundary>135.9263</innerBoundary>
+		<outerBoundary>195.8222</outerBoundary>
+		<gregorianYear>60584.3465</gregorianYear>
+	</row>
+
+	<row>
+		<designation>ι2 Scorpii</designation>
+		<radialVelocity>-10.2</radialVelocity>
+		<parallax>0,00128&quot;</parallax>
+		<parsecs>781.25</parsecs>
+		<lightYears>2548.1</lightYears>
+		<apparentMagnitude>4.75</apparentMagnitude>
+		<absoluteMagnitude>-4.71</absoluteMagnitude>
+		<bolometricMagnitude>-5.07</bolometricMagnitude>
+		<solarDiameter>35.2262</solarDiameter>
+		<absoluteLuminosity>6546.3617</absoluteLuminosity>
+		<bolometricLuminosity>8472.2741</bolometricLuminosity>
+		<spectralClass>A2</spectralClass>
+		<stellarCategory>Ib</stellarCategory>
+		<innerBoundary>87.7614</innerBoundary>
+		<outerBoundary>126.4334</outerBoundary>
+		<gregorianYear>39116.5394</gregorianYear>
+	</row>
+
+	<row>
+		<designation>κ Scorpii</designation>
+		<radialVelocity>-14</radialVelocity>
+		<parallax>0,00675&quot;</parallax>
+		<parsecs>148.14</parsecs>
+		<lightYears>483.19</lightYears>
+		<apparentMagnitude>2.35</apparentMagnitude>
+		<absoluteMagnitude>-3.5</absoluteMagnitude>
+		<bolometricMagnitude>-6.27</bolometricMagnitude>
+		<solarDiameter>8.0768</solarDiameter>
+		<absoluteLuminosity>2147.8304</absoluteLuminosity>
+		<bolometricLuminosity>25585.8588</bolometricLuminosity>
+		<spectralClass>B1</spectralClass>
+		<stellarCategory>III</stellarCategory>
+		<innerBoundary>152.5118</innerBoundary>
+		<outerBoundary>219.7161</outerBoundary>
+		<gregorianYear>67976.7547</gregorianYear>
+	</row>
+
+	<row>
+		<designation>λ Scorpii</designation>
+		<radialVelocity>-3</radialVelocity>
+		<parallax>0,00571&quot;</parallax>
+		<parsecs>175.13</parsecs>
+		<lightYears>571.2</lightYears>
+		<apparentMagnitude>1.6</apparentMagnitude>
+		<absoluteMagnitude>-4.62</absoluteMagnitude>
+		<bolometricMagnitude>-7.2</bolometricMagnitude>
+		<solarDiameter>14.3039</solarDiameter>
+		<absoluteLuminosity>6025.5958</absoluteLuminosity>
+		<bolometricLuminosity>60255.9586</bolometricLuminosity>
+		<spectralClass>B2</spectralClass>
+		<stellarCategory>IV</stellarCategory>
+		<innerBoundary>234.0473</innerBoundary>
+		<outerBoundary>337.1802</outerBoundary>
+		<gregorianYear>104318.2824</gregorianYear>
+	</row>
+
+	<row>
+		<designation>μ1 Scorpii</designation>
+		<radialVelocity>-7.6</radialVelocity>
+		<parallax>0,00651&quot;</parallax>
+		<parsecs>153.61</parsecs>
+		<lightYears>501.01</lightYears>
+		<apparentMagnitude>3</apparentMagnitude>
+		<absoluteMagnitude>-2.93</absoluteMagnitude>
+		<bolometricMagnitude>-5.7</bolometricMagnitude>
+		<solarDiameter>6.212</solarDiameter>
+		<absoluteLuminosity>1270.5741</absoluteLuminosity>
+		<bolometricLuminosity>15135.6124</bolometricLuminosity>
+		<spectralClass>B1</spectralClass>
+		<stellarCategory>V</stellarCategory>
+		<innerBoundary>117.3015</innerBoundary>
+		<outerBoundary>168.9904</outerBoundary>
+		<gregorianYear>52282.9912</gregorianYear>
+	</row>
+
+	<row>
+		<designation>μ2 Scorpii</designation>
+		<radialVelocity>1.3</radialVelocity>
+		<parallax>0,00688&quot;</parallax>
+		<parsecs>145.34</parsecs>
+		<lightYears>474.06</lightYears>
+		<apparentMagnitude>3.55</apparentMagnitude>
+		<absoluteMagnitude>-2.26</absoluteMagnitude>
+		<bolometricMagnitude>-4.84</bolometricMagnitude>
+		<solarDiameter>4.8242</solarDiameter>
+		<absoluteLuminosity>685.4882</absoluteLuminosity>
+		<bolometricLuminosity>6854.8822</bolometricLuminosity>
+		<spectralClass>B2</spectralClass>
+		<stellarCategory>IV</stellarCategory>
+		<innerBoundary>78.9411</innerBoundary>
+		<outerBoundary>113.7266</outerBoundary>
+		<gregorianYear>35185.2325</gregorianYear>
+	</row>
+
+	<row>
+		<designation>ν Scorpii</designation>
+		<radialVelocity>2.4</radialVelocity>
+		<parallax>0,00747&quot;</parallax>
+		<parsecs>133.86</parsecs>
+		<lightYears>436.62</lightYears>
+		<apparentMagnitude>4.1</apparentMagnitude>
+		<absoluteMagnitude>-1.53</absoluteMagnitude>
+		<bolometricMagnitude>-4.11</bolometricMagnitude>
+		<solarDiameter>3.4468</solarDiameter>
+		<absoluteLuminosity>349.9451</absoluteLuminosity>
+		<bolometricLuminosity>3499.4516</bolometricLuminosity>
+		<spectralClass>B2</spectralClass>
+		<stellarCategory>V</stellarCategory>
+		<innerBoundary>56.4031</innerBoundary>
+		<outerBoundary>81.2572</outerBoundary>
+		<gregorianYear>25139.7192</gregorianYear>
+	</row>
+
+	<row>
+		<designation>ξ Scorpii</designation>
+		<radialVelocity>-36.33</radialVelocity>
+		<parallax>0,03600&quot;</parallax>
+		<parsecs>28.36</parsecs>
+		<lightYears>92.5</lightYears>
+		<apparentMagnitude>4.15</apparentMagnitude>
+		<absoluteMagnitude>1.89</absoluteMagnitude>
+		<bolometricMagnitude>1.81</bolometricMagnitude>
+		<solarDiameter>2.9873</solarDiameter>
+		<absoluteLuminosity>14.9968</absoluteLuminosity>
+		<bolometricLuminosity>14.9968</bolometricLuminosity>
+		<spectralClass>F5</spectralClass>
+		<stellarCategory>IV</stellarCategory>
+		<innerBoundary>3.6923</innerBoundary>
+		<outerBoundary>5.3193</outerBoundary>
+		<gregorianYear>1645.7343</gregorianYear>
+	</row>
+
+	<row>
+		<designation>ο Scorpii</designation>
+		<radialVelocity>-8.2</radialVelocity>
+		<parallax>0,00371&quot;</parallax>
+		<parsecs>269.54</parsecs>
+		<lightYears>879.13</lightYears>
+		<apparentMagnitude>4.55</apparentMagnitude>
+		<absoluteMagnitude>-2.6</absoluteMagnitude>
+		<bolometricMagnitude>-2.86</bolometricMagnitude>
+		<solarDiameter>14.5445</solarDiameter>
+		<absoluteLuminosity>937.562</absoluteLuminosity>
+		<bolometricLuminosity>1106.6237</bolometricLuminosity>
+		<spectralClass>A4</spectralClass>
+		<stellarCategory>II</stellarCategory>
+		<innerBoundary>31.7178</innerBoundary>
+		<outerBoundary>45.6943</outerBoundary>
+		<gregorianYear>14137.1026</gregorianYear>
+	</row>
+
+	<row>
+		<designation>π Scorpii</designation>
+		<radialVelocity>-7.4</radialVelocity>
+		<parallax>0,00557&quot;</parallax>
+		<parsecs>179.53</parsecs>
+		<lightYears>585.56</lightYears>
+		<apparentMagnitude>2.85</apparentMagnitude>
+		<absoluteMagnitude>-3.42</absoluteMagnitude>
+		<bolometricMagnitude>-6.19</bolometricMagnitude>
+		<solarDiameter>7.7847</solarDiameter>
+		<absoluteLuminosity>1995.2623</absoluteLuminosity>
+		<bolometricLuminosity>23768.4028</bolometricLuminosity>
+		<spectralClass>B1</spectralClass>
+		<stellarCategory>V</stellarCategory>
+		<innerBoundary>146.9953</innerBoundary>
+		<outerBoundary>211.7688</outerBoundary>
+		<gregorianYear>65517.9691</gregorianYear>
+	</row>
+
+	<row>
+		<designation>ρ Scorpii</designation>
+		<radialVelocity>-0.4</radialVelocity>
+		<parallax>0,00691&quot;</parallax>
+		<parsecs>144.71</parsecs>
+		<lightYears>472.01</lightYears>
+		<apparentMagnitude>3.85</apparentMagnitude>
+		<absoluteMagnitude>-1.95</absoluteMagnitude>
+		<bolometricMagnitude>-4.53</bolometricMagnitude>
+		<solarDiameter>4.1824</solarDiameter>
+		<absoluteLuminosity>515.2286</absoluteLuminosity>
+		<bolometricLuminosity>5152.2864</bolometricLuminosity>
+		<spectralClass>B2</spectralClass>
+		<stellarCategory>IV</stellarCategory>
+		<innerBoundary>68.439</innerBoundary>
+		<outerBoundary>98.5966</outerBoundary>
+		<gregorianYear>30504.2552</gregorianYear>
+	</row>
+
+	<row>
+		<designation>σ Scorpii</designation>
+		<radialVelocity>-0.4</radialVelocity>
+		<parallax>0,00444&quot;</parallax>
+		<parsecs>225.22</parsecs>
+		<lightYears>734.59</lightYears>
+		<apparentMagnitude>3.05</apparentMagnitude>
+		<absoluteMagnitude>-3.71</absoluteMagnitude>
+		<bolometricMagnitude>-6.48</bolometricMagnitude>
+		<solarDiameter>8.897</solarDiameter>
+		<absoluteLuminosity>2606.1535</absoluteLuminosity>
+		<bolometricLuminosity>31045.5958</bolometricLuminosity>
+		<spectralClass>B1</spectralClass>
+		<stellarCategory>III</stellarCategory>
+		<innerBoundary>167.9978</innerBoundary>
+		<outerBoundary>242.026</outerBoundary>
+		<gregorianYear>74879.0675</gregorianYear>
+	</row>
+
+	<row>
+		<designation>τ Scorpii</designation>
+		<radialVelocity>2</radialVelocity>
+		<parallax>0,00688&quot;</parallax>
+		<parsecs>145.34</parsecs>
+		<lightYears>474.06</lightYears>
+		<apparentMagnitude>2.8</apparentMagnitude>
+		<absoluteMagnitude>-3.01</absoluteMagnitude>
+		<bolometricMagnitude>-5.96</bolometricMagnitude>
+		<solarDiameter>6.1262</solarDiameter>
+		<absoluteLuminosity>1367.7288</absoluteLuminosity>
+		<bolometricLuminosity>19230.9172</bolometricLuminosity>
+		<spectralClass>B0</spectralClass>
+		<stellarCategory>V</stellarCategory>
+		<innerBoundary>132.2219</innerBoundary>
+		<outerBoundary>190.4855</outerBoundary>
+		<gregorianYear>58933.2547</gregorianYear>
+	</row>
+
+	<row>
+		<designation>υ Scorpii</designation>
+		<radialVelocity>8</radialVelocity>
+		<parallax>0,00566&quot;</parallax>
+		<parsecs>176.67</parsecs>
+		<lightYears>576.25</lightYears>
+		<apparentMagnitude>2.7</apparentMagnitude>
+		<absoluteMagnitude>-3.54</absoluteMagnitude>
+		<bolometricMagnitude>-6.12</bolometricMagnitude>
+		<solarDiameter>8.6985</solarDiameter>
+		<absoluteLuminosity>2228.4351</absoluteLuminosity>
+		<bolometricLuminosity>22284.3514</bolometricLuminosity>
+		<spectralClass>B2</spectralClass>
+		<stellarCategory>IV</stellarCategory>
+		<innerBoundary>142.3323</innerBoundary>
+		<outerBoundary>205.051</outerBoundary>
+		<gregorianYear>63439.5986</gregorianYear>
+	</row>
+
+	<row>
+		<designation>χ Scorpii</designation>
+		<radialVelocity>-23.61</radialVelocity>
+		<parallax>0,00862&quot;</parallax>
+		<parsecs>116</parsecs>
+		<lightYears>378.37</lightYears>
+		<apparentMagnitude>5.2</apparentMagnitude>
+		<absoluteMagnitude>-0.12</absoluteMagnitude>
+		<bolometricMagnitude>-1.48</bolometricMagnitude>
+		<solarDiameter>40.1178</solarDiameter>
+		<absoluteLuminosity>95.4992</absoluteLuminosity>
+		<bolometricLuminosity>310.4559</bolometricLuminosity>
+		<spectralClass>K3</spectralClass>
+		<stellarCategory>III</stellarCategory>
+		<innerBoundary>16.7997</innerBoundary>
+		<outerBoundary>24.2026</outerBoundary>
+		<gregorianYear>7487.906</gregorianYear>
+	</row>
+
+	<row>
+		<designation>ψ Scorpii</designation>
+		<radialVelocity>-5.1</radialVelocity>
+		<parallax>0,02096&quot;</parallax>
+		<parsecs>47.71</parsecs>
+		<lightYears>155.61</lightYears>
+		<apparentMagnitude>4.9</apparentMagnitude>
+		<absoluteMagnitude>1.51</absoluteMagnitude>
+		<bolometricMagnitude>1.21</bolometricMagnitude>
+		<solarDiameter>2.1115</solarDiameter>
+		<absoluteLuminosity>21.2813</absoluteLuminosity>
+		<bolometricLuminosity>26.0615</bolometricLuminosity>
+		<spectralClass>A3</spectralClass>
+		<stellarCategory>IV</stellarCategory>
+		<innerBoundary>4.8674</innerBoundary>
+		<outerBoundary>7.0123</outerBoundary>
+		<gregorianYear>2169.5023</gregorianYear>
+	</row>
+
+	<row>
+		<designation>ω1 Scorpii</designation>
+		<radialVelocity>-4.4</radialVelocity>
+		<parallax>0,00692&quot;</parallax>
+		<parsecs>144.5</parsecs>
+		<lightYears>471.32</lightYears>
+		<apparentMagnitude>3.9</apparentMagnitude>
+		<absoluteMagnitude>-1.9</absoluteMagnitude>
+		<bolometricMagnitude>-4.67</bolometricMagnitude>
+		<solarDiameter>3.8656</solarDiameter>
+		<absoluteLuminosity>492.0395</absoluteLuminosity>
+		<bolometricLuminosity>5861.3816</bolometricLuminosity>
+		<spectralClass>B1</spectralClass>
+		<stellarCategory>V</stellarCategory>
+		<innerBoundary>72.9967</innerBoundary>
+		<outerBoundary>105.1627</outerBoundary>
+		<gregorianYear>32535.7203</gregorianYear>
+	</row>
+
+	<row>
+		<designation>ω2 Scorpii</designation>
+		<radialVelocity>-4.8</radialVelocity>
+		<parallax>0,01122&quot;</parallax>
+		<parsecs>89.12</parsecs>
+		<lightYears>290.69</lightYears>
+		<apparentMagnitude>4.3</apparentMagnitude>
+		<absoluteMagnitude>-0.45</absoluteMagnitude>
+		<bolometricMagnitude>-1.38</bolometricMagnitude>
+		<solarDiameter>31.722</solarDiameter>
+		<absoluteLuminosity>129.4195</absoluteLuminosity>
+		<bolometricLuminosity>283.1391</bolometricLuminosity>
+		<spectralClass>G7</spectralClass>
+		<stellarCategory>III</stellarCategory>
+		<innerBoundary>16.0436</innerBoundary>
+		<outerBoundary>23.1133</outerBoundary>
+		<gregorianYear>7150.8941</gregorianYear>
+	</row>
+</data>
+
